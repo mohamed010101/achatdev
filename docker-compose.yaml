@@ -13,7 +13,7 @@ services:
  app-achat:
   depends_on:
   - mysqldb
-  image: moahmedby/achat:1.0.0
+  image: benyoussefm/achat:1.0.0
   restart: on-failure
   ports:
   - 8082:8082
